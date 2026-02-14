@@ -1,0 +1,31 @@
+{
+  "name": "mikoshi-sentinel",
+  "version": "1.0.0",
+  "description": "Deterministic action verification for LLM agent security",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "lib/sentinel.js",
+  "exports": {
+    ".": "./lib/sentinel.js",
+    "./policies": "./lib/policies/index.js",
+    "./middleware": "./lib/middleware.js"
+  },
+  "scripts": {
+    "test": "node tests/test-policies.js && node tests/test-sentinel.js && node tests/test-attacks.js"
+  },
+  "keywords": [
+    "llm",
+    "security",
+    "prompt-injection",
+    "agent",
+    "verification",
+    "deterministic",
+    "policy"
+  ],
+  "author": "Mikoshi Ltd",
+  "homepage": "https://mikoshi.co.uk/sentinel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarrenEdwards111/Mikoshi-Sentinel.git"
+  }
+}
