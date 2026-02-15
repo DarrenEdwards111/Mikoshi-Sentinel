@@ -1,6 +1,12 @@
-# 🛡️ Mikoshi Sentinel
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DarrenEdwards111/Mikoshi-Sentinel/main/logo.jpg" alt="Mikoshi Sentinel" width="200" />
+</p>
 
-**Deterministic action verification for LLM agent security**
+<h1 align="center">Mikoshi Sentinel</h1>
+
+<p align="center">
+  <strong>Deterministic action verification for LLM agent security</strong>
+</p>
 
 > Prompt injection is unsolved because LLMs process instructions and data in the same channel. Sentinel solves this by verifying *actions*, not prompts — using deterministic code that can't be manipulated by clever input.
 
