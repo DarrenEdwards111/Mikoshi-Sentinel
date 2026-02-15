@@ -5,3 +5,8 @@ node_modules/
 coverage/
 dist/
 .npmrc
+secrets/
+.keys/
+*.key
+*.pem
+*.der
